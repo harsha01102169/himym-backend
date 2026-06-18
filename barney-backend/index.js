@@ -1,3 +1,7 @@
+const {
+  getUserMemory,
+  addMemory,
+} = require("./memory");
 const barneyPrompt = require("./prompts/barney");
 const tedPrompt = require("./prompts/ted");
 const robinPrompt = require("./prompts/robin");
